@@ -1,7 +1,7 @@
 public class Banco {
-    static double saldo = 100;
+    double saldo = 100;
 
-    static synchronized void sacar(int n_thread, double valor){
+    synchronized void sacar(int n_thread, double valor){
         if (saldo >= valor) {
             saldo -= valor;
             System.out.println("Cliente " + n_thread + " sacou " + valor + '\n' + "Saldo Restante:" + saldo + '\n');
@@ -11,7 +11,7 @@ public class Banco {
         }
     }
 
-    static synchronized void depositar(int n_thread, double valor){
+    synchronized void depositar(int n_thread, double valor){
         saldo += valor;
         System.out.println("Cliente " + n_thread + " depositou " + valor + '\n' + "Saldo Restante:" + saldo + '\n');
     }
