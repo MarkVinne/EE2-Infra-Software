@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/EE2-Infra-Software.iml" filepath="$PROJECT_DIR$/.idea/EE2-Infra-Software.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problema1/Problema1.iml" filepath="$PROJECT_DIR$/Problema1/Problema1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problema2 - Nao Sincronizado/Problema2 - Nao Sincronizado.iml" filepath="$PROJECT_DIR$/Problema2 - Nao Sincronizado/Problema2 - Nao Sincronizado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problema2 - Sincronizado/Problema2 - Sincronizado.iml" filepath="$PROJECT_DIR$/Problema2 - Sincronizado/Problema2 - Sincronizado.iml" />
+    </modules>
+  </component>
+</project>
